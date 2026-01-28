@@ -310,6 +310,7 @@ export default function Home() {
                   "AWS",
                   "Elasticsearch",
                   "Docker",
+                  "Java",
                   "Jenkins",
                 ].map((skill) => (
                   <span
