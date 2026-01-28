@@ -1,9 +1,12 @@
 export default function Home() {
   return (
     <div className="min-h-screen bg-sand text-ink">
-      <header className="sticky top-0 z-40 border-b border-ink/10 bg-sand/80 backdrop-blur">
+      <header className="sticky top-0 z-40 border-b border-ink/10 bg-sand/70 backdrop-blur">
         <div className="mx-auto flex w-full max-w-5xl items-center justify-between px-6 py-4 sm:px-10">
-          <span className="text-sm font-semibold tracking-[0.3em]">FONZMP</span>
+          <span className="text-sm font-semibold tracking-[0.3em]">
+            FONZMP
+            <span className="ml-2 inline-flex h-2 w-2 rounded-full bg-accent align-middle" />
+          </span>
           <nav className="hidden items-center gap-6 text-xs font-semibold uppercase tracking-[0.2em] text-ink/70 sm:flex">
             <a className="transition hover:text-ink" href="#about">
               About
@@ -22,7 +25,7 @@ export default function Home() {
             </a>
           </nav>
           <a
-            className="text-xs font-semibold uppercase tracking-[0.2em] text-ink/70 transition hover:text-ink"
+            className="text-xs font-semibold uppercase tracking-[0.2em] text-ink/70 transition hover:text-accent"
             href="https://fonzmp.com"
             target="_blank"
             rel="noreferrer"
@@ -52,13 +55,13 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-3">
               <a
-                className="rounded-full bg-ink px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-sand transition hover:bg-ink/90"
+                className="accent-gradient rounded-full px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white shadow-soft transition hover:opacity-90"
                 href="mailto:fonzmp@gmail.com"
               >
                 Email
               </a>
               <a
-                className="rounded-full border border-ink/20 px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink transition hover:border-ink/40"
+                className="rounded-full border border-ink/20 px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink transition hover:border-accent hover:text-accent"
                 href="https://www.linkedin.com/in/alexander-k-wilson"
                 target="_blank"
                 rel="noreferrer"
@@ -66,7 +69,7 @@ export default function Home() {
                 LinkedIn
               </a>
               <a
-                className="rounded-full border border-ink/20 px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink transition hover:border-ink/40"
+                className="rounded-full border border-ink/20 px-5 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink transition hover:border-accent-2 hover:text-accent-2"
                 href="https://github.com/fonzmp"
                 target="_blank"
                 rel="noreferrer"
@@ -75,7 +78,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="space-y-6 rounded-3xl border border-ink/10 bg-white/70 p-6 shadow-soft">
+          <div className="space-y-6 rounded-3xl border border-ink/20 bg-card p-6 shadow-soft">
             <div>
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-ink/50">
                 Contact
@@ -93,7 +96,7 @@ export default function Home() {
               </p>
               <p className="text-sm text-ink/70">Remote / Washington, D.C.</p>
             </div>
-            <div className="rounded-2xl border border-ink/10 bg-sand px-4 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-ink/60">
+            <div className="accent-border rounded-2xl border border-border-strong bg-card-strong px-4 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-ink/80">
               Open to: API platforms, DevEx, full-stack leadership
             </div>
           </div>
@@ -220,7 +223,7 @@ export default function Home() {
               Technical Projects
             </p>
             <div className="space-y-6">
-              <div className="rounded-3xl border border-ink/10 bg-white/70 p-6 shadow-soft">
+              <div className="rounded-3xl border border-ink/20 bg-card p-6 shadow-soft">
                 <h3 className="text-lg font-semibold">
                   Department of Veterans Affairs — Lighthouse APIs
                 </h3>
@@ -250,11 +253,11 @@ export default function Home() {
                     silent API or gateway failures.
                   </li>
                 </ul>
-                <p className="mt-4 text-xs font-semibold uppercase tracking-[0.2em] text-ink/50">
+                <p className="mt-4 text-xs font-semibold uppercase tracking-[0.2em] text-accent-2">
                   React · Ruby on Rails · AWS
                 </p>
               </div>
-              <div className="rounded-3xl border border-ink/10 bg-white/70 p-6 shadow-soft">
+              <div className="rounded-3xl border border-ink/20 bg-card p-6 shadow-soft">
                 <h3 className="text-lg font-semibold">Project Work — UI Implementation</h3>
                 <p className="mt-2 text-sm text-ink/60">
                   Adobe Experience Manager · Angular 5 · Java · Spring Boot ·
@@ -284,7 +287,7 @@ export default function Home() {
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-ink/60">
               Technical Skills
             </p>
-            <div className="flex flex-wrap gap-2 text-sm text-ink/70">
+            <div className="flex flex-wrap gap-2 text-sm text-ink/80">
               {
                 [
                   "Ruby",
@@ -311,7 +314,7 @@ export default function Home() {
                 ].map((skill) => (
                   <span
                     key={skill}
-                    className="rounded-full border border-ink/20 px-3 py-1"
+                    className="rounded-full border border-ink/20 bg-card px-3 py-1"
                   >
                     {skill}
                   </span>
@@ -341,7 +344,7 @@ export default function Home() {
                 </p>
                 <p>Athens, OH</p>
               </div>
-              <div className="rounded-3xl border border-ink/10 bg-white/70 p-6 shadow-soft">
+              <div className="rounded-3xl border border-ink/20 bg-card p-6 shadow-soft">
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-ink/50">
                   Let’s build something calm and reliable.
                 </p>
@@ -350,13 +353,13 @@ export default function Home() {
                 </p>
                 <div className="mt-4 flex flex-wrap gap-3">
                   <a
-                    className="rounded-full bg-ink px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-sand"
+                    className="accent-gradient rounded-full px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-white"
                     href="mailto:fonzmp@gmail.com"
                   >
                     Email
                   </a>
                   <a
-                    className="rounded-full border border-ink/20 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink"
+                    className="rounded-full border border-ink/20 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink transition hover:border-accent-2 hover:text-accent-2"
                     href="https://github.com/fonzmp"
                     target="_blank"
                     rel="noreferrer"
@@ -364,7 +367,7 @@ export default function Home() {
                     GitHub
                   </a>
                   <a
-                    className="rounded-full border border-ink/20 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink"
+                    className="rounded-full border border-ink/20 px-4 py-2 text-xs font-semibold uppercase tracking-[0.2em] text-ink transition hover:border-accent hover:text-accent"
                     href="https://www.linkedin.com/in/alexander-k-wilson"
                     target="_blank"
                     rel="noreferrer"

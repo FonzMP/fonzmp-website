@@ -5,6 +5,13 @@
   --foreground: #111111;
   --sand: #f6f3ee;
   --ink: #111111;
+  --accent: #ff6b4a;
+  --accent-2: #6c63ff;
+  --accent-3: #2dd4bf;
+  --accent-soft: #fff0eb;
+  --card: #fff7f2;
+  --card-strong: #fff1e6;
+  --border-strong: rgba(17, 17, 17, 0.2);
 }
 
 @theme inline {
@@ -12,6 +19,12 @@
   --color-foreground: var(--foreground);
   --color-sand: var(--sand);
   --color-ink: var(--ink);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-accent-3: var(--accent-3);
+  --color-accent-soft: var(--accent-soft);
+  --color-card: var(--card);
+  --color-card-strong: var(--card-strong);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -22,6 +35,13 @@
     --foreground: #ededed;
     --sand: #0a0a0a;
     --ink: #ededed;
+    --accent: #ff7a59;
+    --accent-2: #8b7bff;
+    --accent-3: #5eead4;
+    --accent-soft: #1a1412;
+    --card: #121212;
+    --card-strong: #1a1a1a;
+    --border-strong: rgba(237, 237, 237, 0.2);
   }
 }
 
@@ -29,6 +49,14 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  background-image: radial-gradient(
+      circle at 15% 15%,
+      rgba(255, 107, 74, 0.15),
+      transparent 45%
+    ),
+    radial-gradient(circle at 80% 10%, rgba(108, 99, 255, 0.15), transparent 40%),
+    radial-gradient(circle at 75% 85%, rgba(45, 212, 191, 0.2), transparent 45%);
+  background-attachment: fixed;
 }
 
 ::selection {
@@ -38,4 +66,12 @@ body {
 
 .shadow-soft {
   box-shadow: 0 24px 60px -45px rgba(17, 17, 17, 0.35);
+}
+
+.accent-gradient {
+  background: linear-gradient(120deg, var(--accent), var(--accent-2));
+}
+
+.accent-border {
+  border-image: linear-gradient(120deg, var(--accent), var(--accent-2)) 1;
 }
