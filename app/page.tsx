@@ -97,7 +97,7 @@ export default function Home() {
               <p className="text-sm text-ink/70">Remote / Washington, D.C.</p>
             </div>
             <div className="accent-border rounded-2xl border border-border-strong bg-card-strong px-4 py-3 text-xs font-semibold uppercase tracking-[0.2em] text-ink/80">
-              Open to: API platforms, DevEx, full-stack leadership
+              Open to: API platforms, Full-Stack, Backend, Leadership
             </div>
           </div>
         </section>
@@ -132,7 +132,7 @@ export default function Home() {
             <div className="space-y-8">
               <div className="space-y-3">
                 <h3 className="text-lg font-semibold">
-                  Oddball — Software Engineer Technical Lead
+                  Oddball — Software Engineer, Technical Lead
                 </h3>
                 <p className="text-sm uppercase tracking-[0.2em] text-ink/50">
                   Jan 2025 — Current
@@ -155,15 +155,14 @@ export default function Home() {
               </div>
               <div className="space-y-3">
                 <h3 className="text-lg font-semibold">
-                  Oddball — Software Engineer Team Lead
+                  Oddball — Software Engineer, Team Lead
                 </h3>
                 <p className="text-sm uppercase tracking-[0.2em] text-ink/50">
                   Sep 2022 — Jan 2025
                 </p>
                 <p className="text-sm text-ink/70">
-                  Guided squads building Lighthouse APIs and developer
-                  experience initiatives with a focus on stability, monitoring,
-                  and accessibility.
+                  Guided squads building Lighthouse APIs initiatives with a
+                  focus on stability, monitoring, and accessibility.
                 </p>
               </div>
               <div className="space-y-3">
@@ -174,8 +173,8 @@ export default function Home() {
                   Jan 2022 — Sep 2022
                 </p>
                 <p className="text-sm text-ink/70">
-                  Delivered front-end experiences and platform tooling for VA
-                  Lighthouse services.
+                  Delivered full-stack experiences and platform tooling for VA
+                  Lighthouse API services.
                 </p>
               </div>
               <div className="space-y-3">
@@ -185,7 +184,7 @@ export default function Home() {
                 </p>
                 <p className="text-sm text-ink/70">
                   Supported API integrations and developer tooling across
-                  Lighthouse platforms.
+                  Lighthouse API platform.
                 </p>
               </div>
               <div className="space-y-3">
@@ -225,11 +224,14 @@ export default function Home() {
             <div className="space-y-6">
               <div className="rounded-3xl border border-ink/20 bg-card p-6 shadow-soft">
                 <h3 className="text-lg font-semibold">
-                  Department of Veterans Affairs — Lighthouse APIs
+                  Department of Veterans Affairs
                 </h3>
                 <p className="mt-2 text-sm text-ink/60">
-                  Lead Engineer — Lighthouse Benefits Claims API · Technical
-                  Lead — Developer Experience
+                  Technical Lead — Developer Experience
+                  <br />
+                  Lead Engineer — Lighthouse Benefits Claims API
+                  <br />
+                  Senior Software Engineer — Lighthouse APIs
                 </p>
                 <ul className="mt-4 list-disc space-y-2 pl-5 text-sm text-ink/70">
                   <li>
@@ -254,7 +256,7 @@ export default function Home() {
                   </li>
                 </ul>
                 <p className="mt-4 text-xs font-semibold uppercase tracking-[0.2em] text-accent-2">
-                  React · Ruby on Rails · AWS
+                  React · Ruby on Rails · AWS · Docker
                 </p>
               </div>
               <div className="rounded-3xl border border-ink/20 bg-card p-6 shadow-soft">
@@ -269,8 +271,8 @@ export default function Home() {
                     integration across enterprise applications.
                   </li>
                   <li>
-                    Served as an AEM developer on a small team building a new
-                    web application.
+                    Contributed as an AEM developer on a focused team delivering
+                    a new web application.
                   </li>
                   <li>
                     Developed templates, managed CMS content, and supported
