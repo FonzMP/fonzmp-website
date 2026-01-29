@@ -26,7 +26,6 @@ export default function Header() {
         <a
           className="text-xs font-semibold uppercase tracking-[0.2em] text-ink/70 transition hover:text-accent"
           href="https://fonzmp.com"
-          target="_blank"
           rel="noreferrer"
         >
           fonzmp.com
